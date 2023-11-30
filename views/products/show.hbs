@@ -1,0 +1,23 @@
+{{#> app}}
+    {{#*inline "content"}}
+        <div class="row mt-4">
+            {{#with viewData.product}}
+            <table class="table">
+                <tr>
+                    <td>Name</td>
+                    <td> {{ name }} </td>
+                </tr>
+                <tr>
+                    <td>Description</td>
+                    <td> {{ description }} </td>
+                </tr>
+                <tr>
+                    <td>price</td>
+                    <td> ${{ price }} </td>
+                </tr>
+            </table>
+            {{/with}}
+        </div>
+    {{/inline}}
+{{/app}}
+

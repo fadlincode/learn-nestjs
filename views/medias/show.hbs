@@ -1,0 +1,23 @@
+{{#> app}}
+    {{#*inline "content"}}
+        <div class="row mt-4">
+            {{#with viewData.media}}
+            <table class="table">
+                <tr>
+                    <td>Name</td>
+                    <td> {{ name }} </td>
+                </tr>
+                <tr>
+                    <td>Logo</td>
+                    <td> {{ logo }} </td>
+                </tr>
+                <tr>
+                    <td>URL</td>
+                    <td> {{ url }} </td>
+                </tr>
+            </table>
+            {{/with}}
+        </div>
+    {{/inline}}
+{{/app}}
+

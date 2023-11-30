@@ -1,0 +1,10 @@
+{
+    "type": "mysqls",
+    "host": "127.0.0.1",
+    "port": 3306,
+    "username": "root",
+    "password": "pass1234",
+    "database": "arti_pos_engine",
+    "entities": ["dist/**/*.entity{.ts,.js}"],
+    "synchronize": true
+}
